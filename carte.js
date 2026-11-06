@@ -208,7 +208,7 @@ map.getPane('labels').style.pointerEvents = 'none';
 var coucheLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
         attribution: '©OpenStreetMap, ©CartoDB',
         pane: 'labels'
-}).addTo(map);
+})//.addTo(map);
 
 
 // .control de description

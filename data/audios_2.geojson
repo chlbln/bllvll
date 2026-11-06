@@ -1,0 +1,236 @@
+const audios_2_points = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.386586718163946,
+          48.871851295387152
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "numero": "A",
+        "repere": null,
+        "adresse": "13 rue des Envierges",
+        "audio": "HB1",
+        "descr_lieu": "dans la rue des Envierges entre le parc de Belleville et juste avant Archipélia",
+        "description": "Colette et les boutiques de créateurs de la rue des Envierges.",
+        "audio_link": "pj/HB1.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3870323840544878,
+          48.872075358895721
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "numero": "B",
+        "repere": "Archipélia",
+        "adresse": "17 rue des Envierges",
+        "audio": "HB2",
+        "descr_lieu": "devant archipelia",
+        "description": "Karine à propos du quartier.",
+        "audio_link": "pj/HB2.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3887626641575457,
+          48.873319578953172
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "numero": "C",
+        "repere": "Cantine des Pyrénées",
+        "adresse": "77 rue de la Mare",
+        "audio": "HB3",
+        "descr_lieu": "devant la cantine des Pyrénées",
+        "description": "Djamila à propos de la cantine des Pyrénées.",
+        "audio_link": "pj/HB3.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3894345932102747,
+          48.872874040549313
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "numero": "D",
+        "repere": "place Krasucki",
+        "adresse": "place Henri Krasucki",
+        "audio": "HB4",
+        "descr_lieu": "place Krasucki",
+        "description": "Ester Karine Colette : débat sur les cafés.",
+        "audio_link": "pj/HB4.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3896878148141241,
+          48.872776425427027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "numero": "E",
+        "repere": "rue des Cascades",
+        "adresse": "rue des Cascades",
+        "audio": "HB5",
+        "descr_lieu": "dans la rue des cascades",
+        "description": "Djamila à propos des commerces et cafés devenus chers.",
+        "audio_link": "pj/HB5.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3899918469270984,
+          48.872552076721192
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "numero": "F",
+        "repere": "rue des Cascades",
+        "adresse": null,
+        "audio": "HB6",
+        "descr_lieu": "à peine plus loin dans la rue des cascades",
+        "description": "Colette concernant les changements qu’elle observe dans le quartier.",
+        "audio_link": "pj/HB6.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3904406694975413,
+          48.872189985620757
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "numero": "G",
+        "repere": "rue des Cascades",
+        "adresse": null,
+        "audio": "HB7",
+        "descr_lieu": "un peu plus loin dans la rue des Cascades",
+        "description": "Karine sur les logements sociaux.",
+        "audio_link": "pj/HB7.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3913262260096855,
+          48.871703337232056
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "numero": "H",
+        "repere": "Espace Louise Michel",
+        "adresse": "42 ter rue des Cascades",
+        "audio": "HB8",
+        "descr_lieu": "devant l’espace Louise Michel dans rue des Cascades",
+        "description": "Karine et Djemila sur l’espace Louise Michel.",
+        "audio_link": "pj/HB8.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3914096902793704,
+          48.871414884634611
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "numero": "I",
+        "repere": "Regard Saint-Martin",
+        "adresse": "42 rue des Cascades",
+        "audio": "HB9",
+        "descr_lieu": "devant le regard St Martin rue des Cascades",
+        "description": "Le regard St Martin, d’après Karine.",
+        "audio_link": "pj/HB9.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.385182392660063,
+          48.87027364929795
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "numero": "J",
+        "repere": "Parc de Belleville",
+        "adresse": null,
+        "audio": "HB10",
+        "descr_lieu": "dans le bas du parc de Belleville",
+        "description": "Ester et le parc de Belleville.",
+        "audio_link": "pj/HB10.mp3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3786967341751453,
+          48.870741638738117
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "numero": "K",
+        "repere": "Cantine de Belleville",
+        "adresse": "108 boulevard de Belleville",
+        "audio": "HB11",
+        "descr_lieu": "avant le café la cantine de Belleville sur le boulevard de Belleville",
+        "description": "Ester, Karine et Djamila à propos des cafés et commerces du quartier.",
+        "audio_link": "pj/HB11.mp3"
+      }
+    }
+  ]
+}

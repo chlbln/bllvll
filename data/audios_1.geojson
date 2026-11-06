@@ -1,0 +1,426 @@
+const audios_1_points = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3895532076586865,
+                    48.874500292131764
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "numero": "1",
+                "repere": "Ecole du Jourdain",
+                "adresse": "4 rue du Jourdain",
+                "audio": "RB2",
+                "descr_lieu": "près de l’école du Jourdain",
+                "description": "Introduction : Amandine à propos de notre balade et de l’histoire du quartier.",
+                // "audio_link": "https://diviextended.com/wp-content/uploads/2021/10/sound-of-waves-marine-drive-mumbai.mp3"
+                "audio_link": "pj/RB2.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3893066982666498,
+                    48.874800758561221
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "numero": "2",
+                "repere": "Librairie La Cartouche",
+                "adresse": "7 rue du Jourdain",
+                "audio": "RB1",
+                "descr_lieu": "non loin de la librairie La cartouche",
+                "description": "Colette à propos de l’école du Jourdain, la librairie La cartouche, du fleuriste Nouvelle Ere, des banques.",
+                "audio_link": "pj/RB1.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3893742129484363,
+                    48.875306656526107
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "numero": "3",
+                "repere": "Église Saint-Jean-Baptiste de Belleville",
+                "adresse": "139 rue de Belleville",
+                "audio": "RB5",
+                "descr_lieu": "devant l’église St Jean Baptiste",
+                "description": "Agathe à propos de l’église St Jean Baptiste de Belleville.",
+                "audio_link": "pj/RB5.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.389044363254214,
+                    48.875333205102116
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "numero": "4",
+                "repere": "Café Le Lescot",
+                "adresse": "5 rue Lassus",
+                "audio": "RB3",
+                "descr_lieu": "près du café Le Lescot",
+                "description": "Colette parle du café Le Lescot.",
+                "audio_link": "pj/RB3.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3891038532855955,
+                    48.875108774511517
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "numero": "5",
+                "repere": "Pharmacie Well and well",
+                "adresse": "137 rue de Belleville",
+                "audio": "RB4",
+                "descr_lieu": "devant la pharmacie Well and well",
+                "description": "Fatou parle du foyer Pauline Rolland et de la pharmacie.",
+                "audio_link": "pj/RB4.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3890652526778182,
+                    48.875278510943431
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "numero": "6",
+                "repere": "Fleuriste Madame Juliette",
+                "adresse": "1 rue Lassus",
+                "audio": "RB6",
+                "descr_lieu": "devant le fleuriste Madame Juliette",
+                "description": "Ouassila à propos d’une librairie d’occasion devenue fleuriste.",
+                "audio_link": "pj/RB6.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3865938283294055,
+                    48.874579543244955
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "numero": "7",
+                "repere": "Le Repaire de Bacchus",
+                "adresse": "105 rue de Belleville",
+                "audio": "RB6bis",
+                "descr_lieu": "devant le caviste Le repère de Bacchus",
+                "description": "Ouassila et Agathe à propos d’une boutique de téléphonie mobile devenue cave à vin.",
+                "audio_link": "pj/RB6bis.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3875145215455866,
+                    48.874723440990358
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "numero": "8",
+                "repere": "intersection rue de Belleville/rue de la Villette",
+                "adresse": "115 rue de Belleville",
+                "audio": "RB7",
+                "descr_lieu": "rue de Belleville avant l’intersection avec la rue de la Villette",
+                "description": "Aminata et les lieux qu’elle fréquente dans cette partie de la rue de Belleville et rue Clavel.",
+                "audio_link": "pj/RB7.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3874315217049009,
+                    48.874575747158808
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "numero": "9",
+                "repere": "rue de la Villette",
+                "adresse": "112 rue de Belleville",
+                "audio": "RB8",
+                "descr_lieu": "en face de la rue de la Villette",
+                "description": "Pauline et la Cité Julien Dhuy.",
+                "audio_link": "pj/RB8.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3855082170034918,
+                    48.874228517790911
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "numero": "10",
+                "repere": "rue de Clavel",
+                "adresse": "1 rue Clavel",
+                "audio": "RB9",
+                "descr_lieu": "au niveau / au début de la rue de Clavel",
+                "description": "Aminata et les lieux qu’elle fréquente rue de Clavel.",
+                "audio_link": "pj/RB9.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3874617868451447,
+                    48.874803287895418
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "numero": "11",
+                "repere": "L'atelier de la Villette",
+                "adresse": "2 rue de la Villette",
+                "audio": "RB10",
+                "descr_lieu": "devant le coiffeur L’atelier de la Villette",
+                "description": "Colette à propos de son coiffeur.",
+                "audio_link": "pj/RB10.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3856637234640345,
+                    48.873983992590283
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "numero": "12",
+                "repere": null,
+                "adresse": null,
+                "audio": "RB11",
+                "descr_lieu": "peut être placé entre 11 et 14 où il y a de la place car les lieux évoqués sont loin (Lidl boulevarde la Villette et marché de Belleville)",
+                "description": "Fatou parle des endroits où l’on peut faire ses courses dans le quartier (Lidl et marché).",
+                "audio_link": "pj/RB11.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3849814709720278,
+                    48.873763430085781
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "numero": "13",
+                "repere": null,
+                "adresse": null,
+                "audio": "RB12",
+                "descr_lieu": "peut être placé entre 12 et 14, non loin de la rue de Clavel, où il y a de la place car les lieux évoqués sont loin (parc buttes chaumont, parc Belleville)",
+                "description": "Fatou Ouassila Agathe Pauline à propos des parcs du quartier.",
+                "audio_link": "pj/RB12.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3841431047584067,
+                    48.873573010215338
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "numero": "14",
+                "repere": "Ifri Viande",
+                "adresse": "78 rue de Belleville",
+                "audio": "RB13",
+                "descr_lieu": "devant Ifri viande",
+                "description": "Fatou parle de son boucher.",
+                "audio_link": "pj/RB13.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3837361769178651,
+                    48.873525063922671
+                ]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "numero": "15",
+                "repere": "72 rue de Belleville",
+                "adresse": "72 rue de Belleville",
+                "audio": "RB14",
+                "descr_lieu": "au 72 Rue de Belleville",
+                "description": "Les femmes à propos du lieu de naissance d’Edith Piaf.",
+                "audio_link": "pj/RB14.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3830031687139885,
+                    48.873433282292538
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "numero": "16",
+                "repere": "rue Piat",
+                "adresse": "64 rue de Belleville",
+                "audio": "RB15",
+                "descr_lieu": "juste après la rue Piat",
+                "description": "Fatou évoque une boutique d’envoi argent à l'étranger et Massika une boulangerie.",
+                "audio_link": "pj/RB15.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.382802640488082,
+                    48.873406678350577
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "numero": "17",
+                "repere": "Biocoop ",
+                "adresse": "62 rue de Belleville",
+                "audio": "RB16",
+                "descr_lieu": "devant la biocoop",
+                "description": "Ouassila à propos de la biocoop et de la librairie Le genre urbain.",
+                "audio_link": "pj/RB16.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.382446881584408,
+                    48.873343356338566
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "numero": "18",
+                "repere": "Epicerie Le Caire",
+                "adresse": "60 rue de Belleville",
+                "audio": "RB17",
+                "descr_lieu": "devant l’épicerie Le Caire",
+                "description": "Agathe et l’épicerie Le Caire.",
+                "audio_link": "pj/RB17.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3818608197947331,
+                    48.873202798816351
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "numero": "19",
+                "repere": "place Fréhel",
+                "adresse": "place Fréhel",
+                "audio": "RB18",
+                "descr_lieu": "place Fréhel",
+                "description": "Fatou et Amy à propos du parc de Belleville et des migrants.",
+                "audio_link": "pj/RB18.mp3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3817135257325548,
+                    48.873105919941167
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "numero": "20",
+                "repere": "place Fréhel",
+                "adresse": "place Fréhel",
+                "audio": "RB19",
+                "descr_lieu": "aussi place Fréhel",
+                "description": "Amy Agathe Ester en conclusion de la balade.",
+                "audio_link": "pj/RB19.mp3"
+            }
+        }
+    ]
+}

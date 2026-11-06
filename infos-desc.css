@@ -1,0 +1,95 @@
+/* joli i */
+.gg-info {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+.gg-info::after,
+.gg-info::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    background: currentColor;
+    left: 7px;
+}
+
+.gg-info::after {
+    bottom: 2px;
+    height: 8px;
+}
+
+.gg-info::before {
+    height: 2px;
+    top: 2px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 9999;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 2em;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 22px;
+    width: 70vw;
+    /* Could be more or less, depending on screen size */
+    font-size: 1rem;
+    line-height: 145%;
+}
+
+/* The Close Button */
+.close {
+    color: #929292;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#info-click:hover,
+#info-click:focus,
+input:hover,
+input:focus,
+summary:hover,
+summary:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

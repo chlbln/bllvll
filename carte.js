@@ -205,10 +205,10 @@ let mylayer = L.layerGroup().addTo(map)
 map.createPane('labels');
 map.getPane('labels').style.zIndex = 340 /*540*/; // position z : au-dessus des Tiles du fond 
 map.getPane('labels').style.pointerEvents = 'none';
-var coucheLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
-        attribution: '©OpenStreetMap, ©CartoDB',
-        pane: 'labels'
-})//.addTo(map);
+// var coucheLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+//         attribution: '©OpenStreetMap, ©CartoDB',
+//         pane: 'labels'
+// }).addTo(map);
 
 
 // .control de description
@@ -245,7 +245,7 @@ legende.onAdd = function () {
 legende.addTo(map);
 
 // contrôler l'affichage des couches (fonds & données)
-let fond_plan = L.layerGroup([WatercolorMap, coucheLabels]).addTo(map);
+let fond_plan = L.layerGroup([WatercolorMap/* , coucheLabels */]).addTo(map);
 
 var baseLayers = {
   "Fond de plan aquarelle": fond_plan,
